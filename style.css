@@ -1,0 +1,123 @@
+h1 {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+main {
+  max-width: 700px;
+  margin: auto;
+}
+header {
+  text-align: center;
+  background-color: blueviolet;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.summary {
+  font-size: 16px;
+  line-height: 20px;
+}
+h2 {
+  color: #2f5a78;
+  font-size: 20px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid #2f5a78;
+}
+
+h3 {
+    color: #2f5a78;
+    font-size: 20px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #2f5a78;
+  }
+
+  h4 {
+    color: #2f5a78;
+    font-size: 20px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #2f5a78;
+  }
+
+body {
+  font-family: Arial;
+}
+#position {
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+}
+#copyright {
+  text-align: center;
+}
+
+section,
+footer {
+  padding: 2px 10px;
+}
+ul {
+  margin: 0px;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: yellow;
+  /* width:fit-content*/
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: darkgray;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: gray;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: red;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    background-color: black;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: green;
+  }
+}
+
+@media only screen and (orientation: portrait) {
+  body {
+    background-color: white;
+  }
+}
+
+
+.bild {
+  border-radius: 10px;
+  box-shadow: 5px 5px 6px 3px #bfe005;
+  animation: identifier 2s infinite linear;
+
+}
+
+@keyframes identifier {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(359deg);
+    }
+    
+}
